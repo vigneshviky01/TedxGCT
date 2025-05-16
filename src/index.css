@@ -1,0 +1,145 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'SpotifyMix';
+  src: url('./assets/fonts/SpotifyMix-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'impact';
+  src: url('./assets/fonts/impact.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --font-SpotifyMix: "SpotifyMix", sans-serif; 
+  --font-impact: "impact", sans-serif; 
+  --color-border-red:#EE3727;
+  --animate-marquee-ltr: marquee-ltr 20s linear infinite;
+  --animate-marquee-rtl: marquee-rtl 40s linear infinite;
+
+  @keyframes marquee-ltr {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  @keyframes marquee-rtl {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+    
+  }
+}
+body{
+  background-color: black;
+}
+.heroBG{
+  background-image: url("/images/HeroBG.png");
+  background-size: cover;
+}
+
+
+.AbtTedX-BG{
+  background-image: url("/images/AbtTedX-BG.png");
+  background-size: cover;
+}
+.AbtTedXGCT-BG{
+  background-image: url("/images/AbtTedXGCT-BG.png");
+  background-size: cover;
+}
+  @media screen and (max-width: 480px) {
+    .AbtTedX-BG{
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    .AbtTedXGCT-BG{
+    background-position: left center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+  }
+
+  @media screen and (min-width:1024px) {
+    .speakerRightFrame{
+  background-image: url("/images/speakerRightFrame.png");
+  background-size: contain;
+    background-position: bottom;
+   background-repeat: no-repeat;
+}
+.speakerLeftFrame{
+  background-image: url("/images/speakerLeftFrame.png");
+  background-size: contain;
+  background-position: bottom;
+   background-repeat: no-repeat;
+}
+  }
+
+
+@media screen and (max-width:1024px) {
+  .speakerMobile{
+    background-image: url("/images/speakerMobile.png");
+  background-size: cover;
+  background-position: bottom;
+   background-repeat: no-repeat;
+  }
+}
+
+.performance-bg{
+  background-image: url("/images/performances/performance-bg.png");
+  background-size: contain;
+   background-repeat: repeat;
+}
+
+.Team-bg{
+background-image: url("/images/team/Team-bg.png");
+  background-size: contain;
+   /* background-repeat: repeat; */
+}
+
+@media screen and (max-width:480px) {
+ .always-visible-scrollbar {
+  overflow-x: scroll !important;
+  overflow-y: hidden;
+  scrollbar-gutter: stable;
+  -ms-overflow-style: scrollbar; /* IE 10+ */
+  scrollbar-width: auto; /* Firefox */
+}
+
+/* Optional: style the scrollbar for WebKit browsers (Chrome, Safari) */
+.always-visible-scrollbar::-webkit-scrollbar {
+  height: 5px;
+}
+
+.always-visible-scrollbar::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 5px;
+}
+
+}
+.partner-bg{
+   background-image: url("/images/partner-bg.png");
+  background-size: contain;
+  background-position: bottom;
+   background-repeat: no-repeat;
+}
+
+@media screen and (max-width:480px) {
+  .partner-bg{
+    background-position: center;
+  }
+}
