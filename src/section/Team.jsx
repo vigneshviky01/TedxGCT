@@ -7,6 +7,10 @@ const Team = () => {
         MEET OUR TEAM
       </h1>
       <div className="Team-bg">
+        <div className="w-full flex justify-center">
+
+        <img src="/images/team/profSathya.png" className="max-h-[500px] object-contain"/>
+        </div>
         <div>
           <h2 className="font-SpotifyMix font-extrabold text-[20px] sm:text-[24px] text-center text-white pt-5">
             CORE TEAM 2024-25

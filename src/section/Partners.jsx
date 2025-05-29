@@ -52,6 +52,17 @@ and this event stands stronger because of you.
 freezing time through every perfect frame
 Thank you for adding flavor and focus to TEDx.
           </p>
+          <div className='flex flex-col items-center'>
+
+          <img src="/images/team/tedXTeam.png" className='xl:max-h-[680px] xl:max-w-[1040px] max-xl:max-w-[600px] max-sm:max-w-[300px]  object-contain'/>
+          <div className='py-5 max-sm:py-3  max-sm:px-5 px-16 max-w-[1300px] text-white font-SpotifyMix sm:text-3xl text-[20px]  text-justify sm:text-center sm:pt-10'>
+          <p className='sm:text-4xl text-[25px] pb-2 text-center'>Together, We Made It Happen.</p>
+       <p>
+        Here’s to the faces behind TEDxGCT 2025 — a team driven by passion, ideas, and the spirit of creating something meaningful.
+Thank you for being part of the journey.
+</p>
+          </div>
+          </div>
       </section>
   )
 }

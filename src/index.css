@@ -52,6 +52,12 @@ body{
   background-size: cover;
 }
 
+@media screen and (max-width:768px){
+.heroBG{
+ background-image: url("/images/HeroBG-sm.png");
+}
+}
+
 
 .AbtTedX-BG{
   background-image: url("/images/AbtTedX-BG.png");
@@ -74,7 +80,7 @@ body{
     }
   }
 
-  @media screen and (min-width:1024px) {
+  @media screen and (min-width:1280px) {
     .speakerRightFrame{
   background-image: url("/images/speakerRightFrame.png");
   background-size: contain;
@@ -90,7 +96,7 @@ body{
   }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1279px) {
   .speakerMobile{
     background-image: url("/images/speakerMobile.png");
   background-size: cover;
@@ -111,7 +117,7 @@ background-image: url("/images/team/Team-bg.png");
    /* background-repeat: repeat; */
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
  .always-visible-scrollbar {
   overflow-x: scroll !important;
   overflow-y: hidden;
@@ -142,4 +148,8 @@ background-image: url("/images/team/Team-bg.png");
   .partner-bg{
     background-position: center;
   }
+}
+
+.font-helvetica{
+  font-family: Helvetica,Arial, sans-serif;
 }

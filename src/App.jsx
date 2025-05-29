@@ -14,7 +14,7 @@ import Footer from "./section/Footer";
 function App() {
   return (
     <>
-      <header className="sm:sticky sm:top-0 sm:z-[100]">
+      <header className="sm:sticky sm:top-0 sm:z-[100] bg-black/80 backdrop-blur-md shadow-md">
         <NavBar />
       </header>
       <main>
