@@ -13,7 +13,7 @@ export default [
     },
     {
         name:"SREEKANTH HARIHARAN",
-        position:"Singer, Composer <br /> Voice of Unakaga, Aazhi Soozhndha and more",
+        position:"Singer, Composer <br /> Voice of Unakaga, Aazhi Soozhndha & more",
         imgURL:"/images/speakers/sree.png",
         right:false
     },
@@ -25,7 +25,7 @@ export default [
     },
     {
         name:"VISHAL CHANDRASEKHAR",
-        position:"An acclaimed music composer <br /> Known for Sita Ramam, Oh Manapenne and more",
+        position:"An acclaimed music composer <br /> Known for Sita Ramam, Oh Manapenne & more",
         imgURL:"/images/speakers/vis.png",
         right:false
     },
