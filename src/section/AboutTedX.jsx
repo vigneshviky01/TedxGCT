@@ -22,7 +22,7 @@ const AboutTedX = () => {
           about creating a space where big ideas come to life—and often, change
           lives.
         </p>
-        <p className="text-border-red font-SpotifyMix text-[20px] sm:text-3xl text-center pb-7 mt-[-20px] "><span className="cursor-pointer">Explore</span></p>
+        <p className="text-border-red font-SpotifyMix text-[20px] sm:text-3xl text-center pb-7 mt-[-20px] "><a href="https://www.ted.com/about/programs-initiatives/tedx-program" target="_blank">Explore</a></p>
       </div>
     </section>
   );

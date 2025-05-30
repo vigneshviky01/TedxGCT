@@ -11,8 +11,8 @@ const Hero = () => {
                     29TH MARCH 2025
                 </p>
                 <div className='md:pl-4 xl:pl-10 sm:mt-5 flex max-sm:w-full justify-center sm:justify-start gap-5'>
-                    <img src="/icons/Instagram.svg" className='max-xl:h-8 max-xl:w-8 cursor-pointer' alt="Icon"  />
-                    <img src="/icons/Linkedin.svg" className='max-xl:h-8 max-xl:w-8 cursor-pointer' alt="Icon"  />
+                    <a href="https://www.instagram.com/tedx_gct?igsh=MXd1ZjZxMWJ4eGxxdA==" target="_blank"><img src="/icons/Instagram.svg" className='max-xl:h-8 max-xl:w-8 cursor-pointer' alt="Icon"  /></a>
+                    <a href="https://in.linkedin.com/company/tedxgct" target="_blank"><img src="/icons/Linkedin.svg" className='max-xl:h-8 max-xl:w-8 cursor-pointer' alt="Icon"  /></a>
                 </div>
             </div>
              <p className='sm:hidden   font-SpotifyMix font-medium text-xl text-white'>
