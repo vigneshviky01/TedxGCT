@@ -59,7 +59,7 @@ Thank you for adding flavor and focus to TEDx.
           <p className='sm:text-4xl text-[25px] pb-2 text-center'>Together, We Made It Happen.</p>
        <p>
         Here’s to the faces behind TEDxGCT 2025 — a team driven by passion, ideas, and the spirit of creating something meaningful.
-Thank you for being part of the journey.
+Once again, Thank you for being part of the journey.
 </p>
           </div>
           </div>
